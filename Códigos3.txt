@@ -1,0 +1,73 @@
+
+usuario3457@DESKTOP-PTADA54 MINGW64 ~/Desktop/PRUEBAX (master)
+$ git config --global user.name "Janice2812"
+
+usuario3457@DESKTOP-PTADA54 MINGW64 ~/Desktop/PRUEBAX (master)
+$ git config --global user.email "janicemily1125@gmail.com"
+
+usuario3457@DESKTOP-PTADA54 MINGW64 ~/Desktop/PRUEBAX (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/usuario3457/Desktop/PRUEBAX/.git/
+
+usuario3457@DESKTOP-PTADA54 MINGW64 ~/Desktop/PRUEBAX (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+usuario3457@DESKTOP-PTADA54 MINGW64 ~/Desktop/PRUEBAX (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        prueba1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+usuario3457@DESKTOP-PTADA54 MINGW64 ~/Desktop/PRUEBAX (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+usuario3457@DESKTOP-PTADA54 MINGW64 ~/Desktop/PRUEBAX (master)
+$ git add .
+
+usuario3457@DESKTOP-PTADA54 MINGW64 ~/Desktop/PRUEBAX (master)
+$ git commit -m "primer commit"
+[master (root-commit) 5f57656] primer commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 prueba1.txt
+
+usuario3457@DESKTOP-PTADA54 MINGW64 ~/Desktop/PRUEBAX (master)
+$ git log
+commit 5f57656279b5f0511eccfeef280034212f666e3e (HEAD -> master)
+Author: Janice2812 <janicemily1125@gmail.com>
+Date:   Thu Apr 25 09:09:08 2024 -0500
+
+    primer commit
+
+usuario3457@DESKTOP-PTADA54 MINGW64 ~/Desktop/PRUEBAX (master)
+$ git remote add origin https://github.com/Janice2812/PRUEBAX.git
+
+usuario3457@DESKTOP-PTADA54 MINGW64 ~/Desktop/PRUEBAX (master)
+$ git branch -M main
+
+usuario3457@DESKTOP-PTADA54 MINGW64 ~/Desktop/PRUEBAX (main)
+$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 221 bytes | 221.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Janice2812/PRUEBAX.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+usuario3457@DESKTOP-PTADA54 MINGW64 ~/Desktop/PRUEBAX (main)
+$
